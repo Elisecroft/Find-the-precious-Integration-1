@@ -1,0 +1,194 @@
+/* General */
+
+body {
+  min-height: 100%;
+}
+
+.container-fluid h2, .container h2 {
+  font-size: 25px;
+}
+
+.margin {
+    margin-bottom: 45px;
+  }
+
+/* Navbar */
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.navbar ul {
+  padding: 0;
+}
+
+.navbar li:hover {
+  background-color: #EEEEEE;
+  
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #333;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+/* Carousel */
+
+.carousel-item img {
+    width: 100%;
+    min-height: 220px;
+    max-height: 350px;
+    margin: auto;
+}
+
+.caption-first {
+  font-size: 24px;
+  color: #000;
+  font-weight: 800;
+}
+
+.caption-second {
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+}
+
+/* Cards */
+
+#min {
+  font-size: 18px;
+}
+
+.card-block {
+  padding-left: 5%;
+}
+
+.card-block h3 {
+  padding-top: 10px;
+}
+
+.card-profile img {
+  opacity: 1;
+}
+
+.reward {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  background-color: #999;
+  color: #FFF;
+  border-radius: 5px;
+  padding: 0.5% 2%;
+  display: none;
+}
+
+.reward-dead {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  font-size: 35px;
+  font-weight: 700;
+  display: none;
+}
+
+.card-profile:hover .reward, .card-profile:hover .reward-dead{
+  display: block;
+}
+
+.card-profile:hover img{
+  opacity: 0.5;
+}
+
+/* Form */
+
+#contact h2 {
+  border-top: solid 1px #000;
+  padding-top: 20px;
+}
+
+label {
+  font-size: 6px;
+  opacity: 0;
+}
+
+.form-group {
+  margin: 0;
+}
+
+.form-control {
+  border-color: #000;
+}
+
+#message {
+  padding-top: 15px;
+  padding-bottom: 150px;
+}
+
+#send {
+  margin-top: 45px;
+  padding: 5px 10px;
+}
+
+/* Footer */
+
+footer {
+  padding-top: 30px;
+  background-color:#222;
+  min-height: 100px;
+}
+
+footer li {
+  list-style-type: none;
+  padding: 5px 0px;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+footer li a:hover {
+  text-decoration: none;
+  color: #CCC;
+}
+
+.socialLinks a {
+  font-weight: 700;
+} 
+
+
+/* Media Query */
+
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+  .reward {
+    font-size: 15px;
+    left: 10%;
+  }
+
+  .reward-dead {
+    left: 26%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .caption-first, .caption-second {
+    display: none;
+  }
+  .card {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+}
