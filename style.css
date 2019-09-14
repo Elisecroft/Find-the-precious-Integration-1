@@ -70,6 +70,11 @@ body {
   font-size: 18px;
 }
 
+.card {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 .card-block {
   padding-left: 5%;
 }
@@ -85,7 +90,7 @@ body {
 .reward {
   position: absolute;
   top: 5%;
-  left: 20%;
+  left: 22%;
   background-color: #999;
   color: #FFF;
   border-radius: 5px;
@@ -96,7 +101,7 @@ body {
 .reward-dead {
   position: absolute;
   top: 30%;
-  left: 35%;
+  left: 37%;
   font-size: 35px;
   font-weight: 700;
 }
