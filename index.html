@@ -28,12 +28,12 @@
             </div>
         </nav>
         <!-- Carousel -->
-        <div id="concert" class="carousel slide margin" data-ride="carousel">
+        <section id="carousel" class="carousel slide margin" data-ride="carousel">
             <!-- Indicators -->
             <ul class="carousel-indicators">
-                <li data-target="#concert" data-slide-to="0" class="active"></li>
-                <li data-target="#concert" data-slide-to="1"></li>
-                <li data-target="#concert" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
             </ul>
             <!-- The slideshow -->
             <div class="carousel-inner">
@@ -60,59 +60,57 @@
                 </div>
             </div>
             <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#concert" data-slide="prev">
+            <a class="carousel-control-prev" href="#carousel" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
             </a>
-            <a class="carousel-control-next" href="#concert" data-slide="next">
+            <a class="carousel-control-next" href="#carousel" data-slide="next">
                 <span class="carousel-control-next-icon"></span>
             </a>
-        </div>
+        </section>
         <!-- Cards -->
-        <div class="container-fluid margin" id="fellows">
+        <section class="container-fluid margin" id="fellows">
             <h2 class="text-center margin">Fellows wanted dead <span id="min">(or alive if you want eat them later)</span></h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card margin">
-                            <div class="card-profile">
-                            <p class="reward">Reward 1000 golds coins</p>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRjpOSgM6ugHrJugtZqQm96sP9nm8jWh4jT13pc_wGcMt-Rfbt" class="card-img-top img-fluid" alt="The Wizard">
-                            </div>
-                            <div class="card-block">
-                                <h3 class="card-title">The Wizard</h3> 
-                                <p>Small description...</p>   
-                            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card margin">
+                        <div class="card-profile">
+                        <p class="reward">Reward 1000 golds coins</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRjpOSgM6ugHrJugtZqQm96sP9nm8jWh4jT13pc_wGcMt-Rfbt" class="card-img-top img-fluid" alt="The Wizard">
+                        </div>
+                        <div class="card-block">
+                            <h3 class="card-title">The Wizard</h3> 
+                            <p>Small description...</p>   
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card margin">
-                            <div class="card-profile">
-                            <p class="reward-dead">DEAD</p>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRjpOSgM6ugHrJugtZqQm96sP9nm8jWh4jT13pc_wGcMt-Rfbt" class="card-img-top img-fluid" alt="The Hobbit">
-                            </div>
-                            <div class="card-block">
-                                <h3 class="card-title">Hobbit #3</h3> 
-                                <p>Small description...</p>   
-                            </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card margin">
+                        <div class="card-profile">
+                        <p class="reward-dead">DEAD</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRjpOSgM6ugHrJugtZqQm96sP9nm8jWh4jT13pc_wGcMt-Rfbt" class="card-img-top img-fluid" alt="The Hobbit">
+                        </div>
+                        <div class="card-block">
+                            <h3 class="card-title">Hobbit #3</h3> 
+                            <p>Small description...</p>   
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card margin">
-                            <div class=card-profile>
-                            <p class="reward">Reward 250 golds coins</p>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRjpOSgM6ugHrJugtZqQm96sP9nm8jWh4jT13pc_wGcMt-Rfbt" class="card-img-top img-fluid" alt="The Dwarf">
-                            </div>
-                            <div class="card-block">
-                                <h3 class="card-title">Yummy Dwarf</h3> 
-                                <p>Small description...</p>   
-                            </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card margin">
+                        <div class=card-profile>
+                        <p class="reward">Reward 250 golds coins</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRjpOSgM6ugHrJugtZqQm96sP9nm8jWh4jT13pc_wGcMt-Rfbt" class="card-img-top img-fluid" alt="The Dwarf">
+                        </div>
+                        <div class="card-block">
+                            <h3 class="card-title">Yummy Dwarf</h3> 
+                            <p>Small description...</p>   
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Form -->
-        <div class="container" id="contact">
+        <section class="container" id="contact">
             <h2 class="margin">Contact Us</h2>
             <div class="row">
                 <div class="offset-md-1 col-md-10">
@@ -139,14 +137,14 @@
                             <input type="text" class="form-control" id="message" placeholder="Your message">
                         </div>
                         <div class="row margin">
-                            <div class="offset-10 col-md-2">
+                            <div class="offset-md-10 col-md-2">
                                     <button type="button" class="btn btn-secondary" id="send">Send !</button> 
                             </div>
                         </div> 
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Footer -->
         <footer>
             <div class="container-fluid">
