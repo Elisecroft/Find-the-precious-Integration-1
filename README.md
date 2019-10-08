@@ -1,6 +1,6 @@
 # Find The Precious - Tome I
 
-This repo is an exercice to HTML/CSS and Bootstrap. It bases on a give wireframe. The "definitive" version will come with the Tome II. You can see the result [HERE](https://github.com/Elisecroft/Markdown-Quest).
+This repo is an exercice to HTML/CSS and Bootstrap. It bases on a give wireframe. The "definitive" version will come with the Tome II. You can see the result [HERE](https://elisecroft.github.io/Find-the-precious-Integration-1/).
 
 ![Result](https://zupimages.net/up/19/40/597i.png)
 
